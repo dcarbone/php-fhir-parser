@@ -1,0 +1,33 @@
+{
+    "name": "php-fhir/parser",
+    "description": "Parser library that will interpret output from a FHIR server into PHP objects",
+    "type": "library",
+    "license": "Apache-2.0",
+    "keywords": [
+        "php",
+        "fhir",
+        "ehr",
+        "hl7",
+        "php-fhir"
+    ],
+    "homepage": "https://github.com/dcarbone/php-fhir-parser.git",
+    "authors": [
+        {
+            "name": "Daniel Carbone",
+            "email": "daniel.p.carbone@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "php-fhir/common": "1.0.*"
+    },
+    "require-dev": {
+        "php-fhir/elements": "@dev",
+        "php-fhir/resources": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "FHIR\\Parser\\": "src/"
+        }
+    }
+}

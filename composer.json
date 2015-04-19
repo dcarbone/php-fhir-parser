@@ -19,7 +19,10 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "php-fhir/common": "1.0.*"
+        "symfony/config": ">=2.6.0 <2.7",
+
+        "php-fhir/common": "1.0.*",
+        "php-fhir/object-mapper": "@dev"
     },
     "require-dev": {
         "php-fhir/elements": "@dev",
